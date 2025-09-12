@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+#root,#container{
+   display: flex;
+   justify-content: center;
+}
+
+#container{
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    max-width: 400px;
+    width: 100%;
+    height: fit-content;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #1f1f1f;
+    color: white;
+    margin-top: 10px;
+}
+
+#list-holder{
+    width: 100%;
+    padding: 20px;
+}
+
+.todo{
+    width: 100%;
+    height: fit-content;
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.task{
+    display: flex;
+    gap: 20px;
+}
+
+.todo input{
+    height: 25px;
+    width: 25px;
+}
+
+.todo button{
+    height: fit-content;
+    width: fit-content;
+    background-color: white;
+    color: #1f1f1f;
+    font-size: 1.3rem;
+}
+
+.done{
+    text-decoration: line-through;
+}
+
+#filter-holder{
+    width: 100%;
+    padding: 20px;
+}
+
+#filter-holder select{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid grey;
+}

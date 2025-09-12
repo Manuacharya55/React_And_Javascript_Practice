@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODO</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="root">
+      <div id="container">
+        <h1>Todo</h1>
+
+        <form>
+          <input type="text" id="user-task" placeholder="add tasks" />
+          <button id="submit">Add todo</button>
+        </form>
+
+        <div id="filter-holder">
+          <select name="" id="filter">
+            <option value="all">all</option>
+            <option value="active">active</option>
+            <option value="completed">completed</option>
+          </select>
+        </div>
+        <div id="list-holder"></div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
